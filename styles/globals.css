@@ -13,3 +13,19 @@ body {
 }
 
 
+button{
+      background-color: rgb(58, 58, 216);
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    box-shadow: rgb(40 41 61 / 4%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 2px 4px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}

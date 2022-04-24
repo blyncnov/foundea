@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import { SiBaremetrics } from "react-icons/si";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import {
-  NavigationContainer,
-  NavigationColumn,
-  Logo,
-  Navigator,
-  NavigationSection,
-  NavigationActionButtion,
+  NContainer,
+  NContainerColumn,
+  NStrainColumn,
+  NContainerRow,
+  NListItems,
+  Nmobile,
 } from "../styles/Homepage/Navigation";
 
 const Navigation: React.FC = () => {
@@ -21,35 +22,40 @@ const Navigation: React.FC = () => {
 
   return (
     <>
-      <NavigationContainer>
-        <NavigationColumn>
-          <div className="navigation__item-set">
-            <NavigationSection>
-              <Logo>
-                <SiBaremetrics />
-                <span>Foundea</span>
-              </Logo>
+      <NContainer>
+        <NContainerColumn>
+          <NStrainColumn>
+            <NContainerRow>
+              <div className="N-controls">
+                <div className="N-logo">
+                  <SiBaremetrics style={{ fontSize: "3em" }} />
+                </div>
 
-              <Navigator>
-                <ul>
+                <NListItems click={isOpen}>
                   <li>Home</li>
                   <li>Personal</li>
+                  <li>Business</li>
                   <li>Company</li>
-                  <li>Services</li>
                   <li>Help</li>
-                </ul>
-              </Navigator>
-            </NavigationSection>
+                </NListItems>
+              </div>
 
-            <>
-              <NavigationActionButtion>
-                <Link href="/home">Log in</Link>
-                <button type="submit">Get Started</button>
-              </NavigationActionButtion>
-            </>
-          </div>
-        </NavigationColumn>
-      </NavigationContainer>
+              <div className="N-actions">
+                <Link href="/login">Log in</Link>
+                <button>Get Started</button>
+              </div>
+
+              <Nmobile onClick={isClickedHandler} className="N-mobile-controls">
+                {isOpen ? (
+                  <FaTimes style={{ fontSize: "1.5em" }} />
+                ) : (
+                  <FaBars style={{ fontSize: "1.5em" }} />
+                )}
+              </Nmobile>
+            </NContainerRow>
+          </NStrainColumn>
+        </NContainerColumn>
+      </NContainer>
     </>
   );
 };
