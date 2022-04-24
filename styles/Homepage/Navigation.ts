@@ -12,7 +12,11 @@ export const NContainer = styled.header`
 
 export const NContainerColumn = styled.div`
   width: 100%;
-  padding: 2em 0;
+  padding: 1.5em 0;
+
+  @media (max-width: 768px) {
+    padding: 2em 0;
+  }
 `;
 
 export const NStrainColumn = styled.div`

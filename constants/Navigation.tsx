@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 import { SiBaremetrics } from "react-icons/si";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { RiBarChartHorizontalLine } from "react-icons/ri";
 
 import {
   NContainer,
@@ -49,7 +50,7 @@ const Navigation: React.FC = () => {
                 {isOpen ? (
                   <FaTimes style={{ fontSize: "1.5em" }} />
                 ) : (
-                  <FaBars style={{ fontSize: "1.5em" }} />
+                  <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />
                 )}
               </Nmobile>
             </NContainerRow>
