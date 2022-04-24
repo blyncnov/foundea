@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 import { SiBaremetrics } from "react-icons/si";
-import { FaBars , FaTimes} from "react-icons/fa";
 
 import {
   NavigationContainer,
-  NavigationContainerWrapper,
-  NavigationMaxLength,
-  NavigationDivider,
+  NavigationColumn,
+  Logo,
   Navigator,
+  NavigationSection,
+  NavigationActionButtion,
 } from "../styles/Homepage/Navigation";
 
 const Navigation: React.FC = () => {
@@ -21,35 +22,33 @@ const Navigation: React.FC = () => {
   return (
     <>
       <NavigationContainer>
-        <NavigationContainerWrapper>
-          <NavigationMaxLength>
-            <div className="container__flex">
-              <div className="container__flex">
-                <NavigationDivider>
-                  <div className="logo">
-                    <SiBaremetrics />
-                    <h1>Foundea</h1>
-                  </div>
-                </NavigationDivider>
-                <NavigationDivider>
-                  <Navigator>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>About Us</li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
-                  </Navigator>
-                </NavigationDivider>
-              </div>
+        <NavigationColumn>
+          <div className="navigation__item-set">
+            <NavigationSection>
+              <Logo>
+                <SiBaremetrics />
+                <span>Foundea</span>
+              </Logo>
 
-              <NavigationDivider>
-                <div className="logo" onClick={isClickedHandler}>
-                  {isOpen ? <FaTimes /> : <FaBars />}
-                </div>
-              </NavigationDivider>
-            </div>
-          </NavigationMaxLength>
-        </NavigationContainerWrapper>
+              <Navigator>
+                <ul>
+                  <li>Home</li>
+                  <li>Personal</li>
+                  <li>Company</li>
+                  <li>Services</li>
+                  <li>Help</li>
+                </ul>
+              </Navigator>
+            </NavigationSection>
+
+            <>
+              <NavigationActionButtion>
+                <Link href="/home">Log in</Link>
+                <button type="submit">Get Started</button>
+              </NavigationActionButtion>
+            </>
+          </div>
+        </NavigationColumn>
       </NavigationContainer>
     </>
   );
