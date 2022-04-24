@@ -31,7 +31,7 @@ const Navigation: React.FC = () => {
                   <SiBaremetrics style={{ fontSize: "3em" }} />
                 </div>
 
-                <NListItems click={isOpen}>
+                <NListItems onClick={isClickedHandler} click={isOpen}>
                   <li>Home</li>
                   <li>Personal</li>
                   <li>Business</li>
