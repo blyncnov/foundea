@@ -4,6 +4,10 @@ const nextConfig = {
     compiler: {
     styledComponents: true,
   },
+  images: {
+    domains: ['nextfood.vercel.app'],
+  }
 }
 
 module.exports = nextConfig
+  
