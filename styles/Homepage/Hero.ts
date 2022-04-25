@@ -128,9 +128,9 @@ export const HRows = styled.header`
       display: none;
     }
 
-    // .top-left {
-    //   display: none;
-    // }
+    .top-left {
+      display: none;
+    }
 
     h1 {
       font-size: 2rem;
