@@ -37,6 +37,7 @@ export const HColumns = styled.header`
 export const HRows = styled.header`
   background-color: transparent;
   width: 100%;
+  position: relative;
 
   h1 {
     font-size: 3rem;
@@ -45,7 +46,8 @@ export const HRows = styled.header`
     color: #041834;
   }
 
-  p,h6 {
+  p,
+  h6 {
     opacity: 0.7;
     font-weight: 400;
     line-height: 1.5;
@@ -94,6 +96,31 @@ export const HRows = styled.header`
     h4 {
       color: #333;
     }
+  }
+
+  .animate {
+    width: auto;
+    position: absolute;
+  }
+
+  .top-right {
+    right: 0;
+    top: -3em;
+  }
+
+  .top-left {
+    left: 0;
+    top: -3em;
+  }
+
+  .down-left {
+    bottom: -3em;
+    left: 0;
+  }
+
+  .down-right {
+    bottom: 0;
+    right: 0;
   }
 
   @media (max-width: 760px) {
