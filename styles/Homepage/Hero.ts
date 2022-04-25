@@ -48,6 +48,8 @@ export const HRows = styled.header`
   p,h6 {
     opacity: 0.7;
     font-weight: 400;
+    line-height: 1.5;
+    font-family: open sans;
   }
 
   button {
