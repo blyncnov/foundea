@@ -39,6 +39,7 @@ export const HRows = styled.header`
     font-size: 3rem;
     line-height: 40px;
     font-weight: 700;
+    color: #041834;
   }
 
   p {
@@ -48,7 +49,7 @@ export const HRows = styled.header`
 
   button {
     background-color: white;
-    color: #3a3ad8;
+    color: #328eb7;
     border: 1px solid transparent;
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04),
       0px 2px 4px rgba(96, 97, 112, 0.16);
@@ -69,7 +70,7 @@ export const HRows = styled.header`
   button:hover {
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
-    color: #333;
+    color: #133e7c;
     background-color: transparent;
     border: 2px solid white;
   }
@@ -84,6 +85,10 @@ export const HRows = styled.header`
   .text__display {
     justify-content: center;
     gap: 0.4em;
+
+    h4 {
+      color: #333;
+    }
   }
 
   @media (max-width: 760px) {

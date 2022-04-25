@@ -6,7 +6,7 @@ interface clickProps {
 
 export const NContainer = styled.header`
   width: 100%;
-  // background-color: #3A3AD8;
+  // background-color: #328EB7;
   // height: 80px;
 `;
 
@@ -38,7 +38,7 @@ export const NContainerRow = styled.div`
     gap: 4em;
 
     .N-logo {
-      color: #3a3ad8;
+      color: #328eb7;
       cursor: pointer;
     }
   }
@@ -47,6 +47,10 @@ export const NContainerRow = styled.div`
     display: flex;
     gap: 2em;
     align-items: center;
+
+    a {
+      color: #328eb7;
+    }
 
     @media (max-width: 768px) {
       display: none;
@@ -82,7 +86,7 @@ export const NListItems = styled.ul<clickProps>`
   }
 
   li:hover {
-    color: #3a3ad8;
+    color: #328eb7;
 
     @media (max-width: 768px) {
       color: #dfd9f8;
@@ -97,7 +101,7 @@ export const NListItems = styled.ul<clickProps>`
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #3a3ad8;
+    background-color: #328eb7;
     padding: 1em 2em;
     transition: all 0.5s ease-in-out;
     z-index: 99;
