@@ -55,7 +55,7 @@ export const NContainerRow = styled.div`
 
   .N-mobile-controls {
     display: none;
-    z-index: 2;
+    z-index: 999;
     cursor: pointer;
     color: grey;
 
@@ -100,6 +100,7 @@ export const NListItems = styled.ul<clickProps>`
     background-color: #3a3ad8;
     padding: 1em 2em;
     transition: all 0.5s ease-in-out;
+    z-index: 99;
   }
 `;
 
