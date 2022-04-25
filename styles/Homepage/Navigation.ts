@@ -40,6 +40,9 @@ export const NContainerRow = styled.div`
     .N-logo {
       color: #328eb7;
       cursor: pointer;
+      display: flex;
+      align-items: flex-end;
+      gap: .1em;
     }
   }
 

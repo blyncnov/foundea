@@ -30,6 +30,7 @@ const Navigation: React.FC = () => {
               <div className="N-controls">
                 <div className="N-logo">
                   <SiBaremetrics style={{ fontSize: "3em" }} />
+                  <h2>Foundea</h2>
                 </div>
 
                 <NListItems onClick={isClickedHandler} click={isOpen}>
