@@ -15,7 +15,7 @@ export const NContainerColumn = styled.div`
   padding: 1.5em 0;
 
   @media (max-width: 768px) {
-    padding: 2em 0;
+    padding: 1em 0;
   }
 `;
 
