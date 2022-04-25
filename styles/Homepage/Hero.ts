@@ -18,13 +18,16 @@ export const HColumns = styled.header`
   padding: 2em 0 3em;
   align-items: center;
   justify-content: space-between;
+
   img {
     border-radius: 5px;
   }
+
   @media (max-width: 960px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+
   @media (max-width: 760px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -42,7 +45,7 @@ export const HRows = styled.header`
     color: #041834;
   }
 
-  p {
+  p,h6 {
     opacity: 0.7;
     font-weight: 400;
   }

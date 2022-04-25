@@ -12,15 +12,15 @@ const Hero: React.FC = () => {
       <HContainer>
         <HColumns>
           <HRows>
-            <h1>
-              Fintech solutions and systems Organizations
-            </h1>
+            <h1>Fintech solutions and systems Organizations.</h1>
             <br />
             <p>
               We pay attention to digitalization and technological innovation
               that affect the banking and finance industries at every level. We
               thrive to stay competitive in the market.
             </p>
+            <br />
+            <h6>Fully Licensed by the ... No vex,  Ah dey joke ni jae 😂😂 . Nobody License am. </h6>
             <br />
             <div className="btn__display">
               <button>Get Started </button>
