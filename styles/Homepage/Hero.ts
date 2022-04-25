@@ -124,6 +124,14 @@ export const HRows = styled.header`
   }
 
   @media (max-width: 760px) {
+    .down-right {
+      display: none;
+    }
+
+    // .top-left {
+    //   display: none;
+    // }
+
     h1 {
       font-size: 2rem;
       line-height: 35px;
