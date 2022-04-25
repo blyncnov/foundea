@@ -105,16 +105,16 @@ export const HRows = styled.header`
 
   .top-right {
     right: 0;
-    top: -3em;
+    top: -2.5em;
   }
 
   .top-left {
     left: 0;
-    top: -3em;
+    top: -2.5em;
   }
 
   .down-left {
-    bottom: -3em;
+    bottom: -2.5em;
     left: 0;
   }
 
