@@ -37,7 +37,7 @@ export const HRows = styled.header`
 
   h1 {
     font-size: 3rem;
-    line-height: 55px;
+    line-height: 40px;
     font-weight: 700;
   }
 
@@ -89,7 +89,7 @@ export const HRows = styled.header`
   @media (max-width: 760px) {
     h1 {
       font-size: 2rem;
-      line-height: 40px;
+      line-height: 35px;
     }
   }
 
