@@ -4,7 +4,8 @@ export const SContainer = styled.header`
   width: 100%;
   background-color: transparent;
   font-family: Inter, sans-serif;
-  padding: 2em 0;
+  padding: 1em 0;
+  
 `;
 
 export const SConstrain = styled.div`
@@ -54,7 +55,7 @@ export const Button = styled.div`
   }
 
   @media (max-width: 760px) {
-    width: 40%;
+    width: 50%;
   }
 `;
 

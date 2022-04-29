@@ -4,6 +4,7 @@ import Head from "next/head";
 // Import Header components
 import Header from "../components/Header";
 import Services from "../components/Services";
+import ShowCase from "../components/Services/ShowCase";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,9 @@ const Home: NextPage = () => {
 
       {/* All components */}
       <Header />
+      <ShowCase />
       <Services />
+
       {/* Components Ends */}
     </>
   );
