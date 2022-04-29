@@ -55,11 +55,10 @@ export const HRows = styled.header`
   }
 
   button {
-    background-color: white;
-    color: #328eb7;
+    background-color: #003e7c;
+    color: #ffffff;
     border: 1px solid transparent;
-    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04),
-      0px 2px 4px rgba(96, 97, 112, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     font-weight: 700;
     font-size: 13px;
     line-height: 20px;
@@ -69,7 +68,6 @@ export const HRows = styled.header`
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
-    transition: all 0.5s ease-in-out, color 0.15s ease-in-out,
       background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
       box-shadow 0.15s ease-in-out;
   }
@@ -77,9 +75,9 @@ export const HRows = styled.header`
   button:hover {
     box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.03),
       0px 2px 4px rgba(96, 97, 112, 0.14);
-    color: #133e7c;
+    color: #003e7c;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1.5px solid #003e7c;
   }
 
   .btn__display,

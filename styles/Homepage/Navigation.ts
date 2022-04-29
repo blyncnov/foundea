@@ -38,11 +38,11 @@ export const NContainerRow = styled.div`
     gap: 4em;
 
     .N-logo {
-      color: #328eb7;
+      color: #003e7c;
       cursor: pointer;
       display: flex;
       align-items: flex-end;
-      gap: .1em;
+      gap: 0.1em;
     }
   }
 
@@ -52,7 +52,7 @@ export const NContainerRow = styled.div`
     align-items: center;
 
     a {
-      color: #328eb7;
+      color: #003e7c;
     }
 
     @media (max-width: 768px) {
@@ -89,7 +89,7 @@ export const NListItems = styled.ul<clickProps>`
   }
 
   li:hover {
-    color: #328eb7;
+    color: #003e7c;
 
     @media (max-width: 768px) {
       color: #dfd9f8;

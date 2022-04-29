@@ -10,7 +10,7 @@ import Banner from "../../public/fintech.svg";
 
 const ImageAminateContinous = {
   move: {
-    y: [-5, 5, -5, 5],
+    y: [-4, 5, -4, 5],
     transition: {
       duration: 6,
       yoyo: Infinity,

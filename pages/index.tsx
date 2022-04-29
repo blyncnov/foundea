@@ -3,6 +3,7 @@ import Head from "next/head";
 
 // Import Header components
 import Header from "../components/Header";
+import Services from "../components/Services";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
 
       {/* All components */}
       <Header />
+      <Services />
       {/* Components Ends */}
     </>
   );

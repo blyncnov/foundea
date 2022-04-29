@@ -49,9 +49,11 @@ const Navigation: React.FC = () => {
 
               <Nmobile onClick={isClickedHandler} className="N-mobile-controls">
                 {isOpen ? (
-                  <FaTimes style={{ fontSize: "1.5em" }} />
+                  <FaTimes style={{ fontSize: "1.5em", color: "#003E7C" }} />
                 ) : (
-                  <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />
+                  <RiBarChartHorizontalLine
+                    style={{ fontSize: "1.5em", color: "#003E7C" }}
+                  />
                 )}
               </Nmobile>
             </NContainerRow>
