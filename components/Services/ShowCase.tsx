@@ -34,7 +34,7 @@ const ShowCase: React.FC = () => {
             <Button>Learn More→</Button>
           </div>
 
-          <div className="card-text">
+          {/* <div className="card-text">
             <FaStar style={{ fontSize: "3em", color: "#3E97BE" }} />
             <br />
             <br />
@@ -47,7 +47,7 @@ const ShowCase: React.FC = () => {
             </p>
             <br />
             <Button>Learn More→</Button>
-          </div>
+          </div> */}
 
           <div className="card-text">
             <FaStrikethrough style={{ fontSize: "3em", color: "#3E97BE" }} />
