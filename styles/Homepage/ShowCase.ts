@@ -14,14 +14,14 @@ export const SConstrain = styled.div`
 export const SectionCards = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2em;
+  gap: 1em;
+  padding: 0 1.5em;
 
   .card-text {
     background-color: #f5f5f5;
     padding: 2em 1.5em;
     border-radius: 0.3em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 
     h2 {
       color: #003e7c;
@@ -30,6 +30,7 @@ export const SectionCards = styled.div`
     p {
       color: black;
       opacity: 0.9;
+      font-size: 13px;
     }
 
     buton {

@@ -20,7 +20,7 @@ const ShowCase: React.FC = () => {
       <SConstrain>
         <SectionCards>
           <div className="card-text">
-            <FaStumbleupon style={{ fontSize: "5.5em", color: "#003E7C" }} />
+            <FaStumbleupon style={{ fontSize: "3em", color: "#3E97BE" }} />
             <br />
             <br />
             <h2>Price-Friendly Exchange Rates</h2>
@@ -35,7 +35,7 @@ const ShowCase: React.FC = () => {
           </div>
 
           <div className="card-text">
-            <FaStar style={{ fontSize: "5.5em", color: "#003E7C" }} />
+            <FaStar style={{ fontSize: "3em", color: "#3E97BE" }} />
             <br />
             <br />
             <h2>Price-Friendly Exchange Rates</h2>
@@ -50,7 +50,7 @@ const ShowCase: React.FC = () => {
           </div>
 
           <div className="card-text">
-            <FaStrikethrough style={{ fontSize: "5.5em", color: "#003E7C" }} />
+            <FaStrikethrough style={{ fontSize: "3em", color: "#3E97BE" }} />
             <br />
             <br />
             <h2>Price-Friendly Exchange Rates</h2>
@@ -65,7 +65,7 @@ const ShowCase: React.FC = () => {
           </div>
 
           <div className="card-text">
-            <FaStrava style={{ fontSize: "5.5em", color: "#003E7C" }} />
+            <FaStrava style={{ fontSize: "3em", color: "#3E97BE" }} />
             <br />
             <br />
             <h2>Price-Friendly Exchange Rates</h2>
